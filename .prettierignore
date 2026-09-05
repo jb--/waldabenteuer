@@ -1,0 +1,7 @@
+node_modules
+dist
+public/map.geojson
+package-lock.json
+test-results
+
+public/regions/*.geojson

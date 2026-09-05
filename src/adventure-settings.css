@@ -1,0 +1,138 @@
+.settings-section {
+  margin-top: 24px;
+  padding-top: 24px;
+  border-top: 1px solid #dee5d4;
+}
+.settings-section > .eyebrow {
+  margin-bottom: 17px;
+}
+.settings-section select {
+  display: block;
+  width: 100%;
+  min-height: 46px;
+  margin: 8px 0;
+  padding: 10px;
+  border: 1px solid #bdccb4;
+  border-radius: 8px;
+  color: #385638;
+  background: #fffefa;
+  font: inherit;
+  font-size: 12px;
+}
+.region-actions {
+  display: flex;
+  gap: 10px;
+  flex-wrap: wrap;
+  margin-top: 16px;
+}
+.region-actions button {
+  font-size: 12px;
+}
+.custom-region .field-row {
+  flex-wrap: wrap;
+}
+.custom-region .field-row > label {
+  min-width: 120px;
+}
+.challenge-fields {
+  border: 1px solid #dce5cb;
+  border-radius: 12px;
+  margin: 23px 0;
+  padding: 17px;
+  background: #f4f6e9;
+}
+.challenge-fields legend {
+  font-size: 13px;
+  color: #527241;
+  font-weight: 600;
+  padding: 0 7px;
+}
+.challenge-fields label {
+  font-size: 12px;
+}
+.challenge-prompt {
+  white-space: pre-line;
+  background: #f0f3e4;
+  border-left: 3px solid #8aa361;
+  padding: 18px;
+  border-radius: 0 9px 9px 0;
+  color: #395b37;
+}
+#answer-error {
+  font-size: 13px;
+  color: #a94e32;
+}
+.answer-hint p {
+  font-size: 13px;
+}
+.no-pressure {
+  font-size: 15px !important;
+  letter-spacing: 0 !important;
+  white-space: nowrap;
+  color: #60834d;
+}
+.team-pace {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  color: #769664;
+  font-size: 15px;
+}
+.team-complete .team-pace {
+  color: #d0dfb5;
+}
+.legend-trail {
+  display: inline-block;
+  min-width: 15px;
+  width: 15px;
+  height: 3px;
+  background: #376e69;
+  border-radius: 3px;
+  margin-left: 8px;
+}
+.map-footer > span:first-child {
+  flex-wrap: wrap;
+}
+.place-label {
+  font-family: "DM Sans", sans-serif;
+  font-size: 10px;
+  border: 0;
+  background: #fffef4d9;
+  color: #586e4c;
+  box-shadow: none;
+  padding: 2px 5px;
+}
+.place-label:before {
+  display: none;
+}
+@media (max-width: 700px) {
+  .settings-section .field-row {
+    flex-direction: column;
+    gap: 15px;
+  }
+  .settings-section .field-row label {
+    width: 100%;
+  }
+  .no-pressure {
+    font-size: 12px !important;
+  }
+  .map-footer > span:first-child {
+    gap: 6px;
+    font-size: 9px;
+  }
+  .legend-trail {
+    margin-left: 5px;
+  }
+  .region-actions button {
+    flex: 1;
+  }
+  .settings-section > .eyebrow {
+    font-size: 10px !important;
+  }
+  .challenge-fields {
+    padding: 14px;
+  }
+  .timer-wrap .no-pressure {
+    line-height: 1.7;
+  }
+}

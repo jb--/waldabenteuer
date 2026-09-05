@@ -1,0 +1,100 @@
+.field-mode-toolbar {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 1rem;
+  margin: 1.5rem 0;
+  padding: 1rem 1.25rem;
+  background: #e6eedf;
+  border: 1px solid #c4d5ba;
+  border-radius: 18px;
+  font-weight: 750;
+}
+.station-edit-row {
+  display: flex;
+  align-items: center;
+  gap: 0.3rem;
+}
+.station-edit-row .editor-station {
+  flex: 1;
+  min-width: 0;
+}
+.station-order {
+  display: flex;
+  gap: 0.25rem;
+}
+.station-order button {
+  min-width: 44px;
+  min-height: 44px;
+}
+.station-order button:disabled {
+  opacity: 0.3;
+  cursor: default;
+}
+.pool-details {
+  margin: 1rem 0;
+  border-top: 1px solid #dce3d4;
+}
+.pool-details summary {
+  padding: 1rem 0.2rem;
+  cursor: pointer;
+  font-weight: 700;
+  min-height: 48px;
+}
+.return-pool {
+  margin-top: 1rem;
+  color: #963e29;
+}
+.field-mode .editor-title,
+.field-mode .workflow-steps,
+.field-mode .editor-toolbar,
+.field-mode .editor-workspace > .editor-panel:first-child,
+.field-mode .editor-aside {
+  display: none;
+}
+.field-mode .editor-layout {
+  grid-template-columns: 1fr;
+  max-width: 1000px;
+  margin: auto;
+}
+.field-mode #survey-map {
+  height: min(54vh, 620px);
+  min-height: 300px;
+}
+.field-mode .survey-panel {
+  scroll-margin-top: 1rem;
+}
+.field-mode .survey-actions {
+  position: sticky;
+  bottom: 12px;
+  z-index: 450;
+  padding: 12px;
+  border-radius: 16px;
+  background: #fffdf5;
+  box-shadow: 0 5px 24px #163c2120;
+}
+.field-mode .survey-actions button {
+  min-height: 56px;
+}
+.print-progress {
+  padding: 0.75rem;
+  background: #e6eedf;
+  border-radius: 10px;
+}
+@media (max-width: 600px) {
+  .station-order {
+    flex-direction: column;
+  }
+  .field-mode-toolbar {
+    padding: 0.75rem;
+  }
+  .field-mode .survey-actions {
+    bottom: 4px;
+  }
+}
+@media print {
+  .print-progress,
+  .print-selection {
+    display: none !important;
+  }
+}

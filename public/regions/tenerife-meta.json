@@ -1,0 +1,21 @@
+{
+  "file": "regions/tenerife.geojson",
+  "center": [
+    28.3,
+    -16.53
+  ],
+  "bounds": [
+    [
+      27.97,
+      -16.98
+    ],
+    [
+      28.63,
+      -16.08
+    ]
+  ],
+  "profile": "island",
+  "source": "OpenStreetMap via Overpass",
+  "license": "ODbL-1.0",
+  "downloadedAt": "2026-09-05T21:20:53.171Z"
+}

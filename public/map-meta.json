@@ -1,0 +1,16 @@
+{
+  "file": "map.geojson",
+  "bounds": [
+    [
+      28.41,
+      -16.395
+    ],
+    [
+      28.433,
+      -16.362
+    ]
+  ],
+  "source": "OpenStreetMap via Overpass",
+  "license": "ODbL-1.0",
+  "downloadedAt": "2026-09-05T19:15:00Z"
+}

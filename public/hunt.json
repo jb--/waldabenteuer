@@ -1,0 +1,98 @@
+{
+  "id": "las-raices-geburtstag-2026",
+  "title": "Das Geheimnis der Pinien",
+  "area": "Las Raíces",
+  "region": "Teneriffa",
+  "demo": true,
+  "description": "Zwischen hohen Pinien und geheimnisvollen Pfaden wartet ein Schatz auf euch. Seid ihr bereit für euer großes Waldabenteuer?",
+  "map": {
+    "file": "map.geojson",
+    "center": [
+      28.421,
+      -16.379
+    ],
+    "bounds": [
+      [
+        28.41,
+        -16.395
+      ],
+      [
+        28.433,
+        -16.362
+      ]
+    ]
+  },
+  "stations": [
+    {
+      "id": "pinie",
+      "code": "PINIE-7K3",
+      "name": "Die alte Pinie",
+      "hint": "Wo die Pinien in den Himmel wachsen, beginnt eure Suche.",
+      "position": [
+        28.42047,
+        -16.37811
+      ],
+      "icon": "trees",
+      "title": "Stark wie eine Pinie!",
+      "message": "Juhu, ihr habt die erste Spur entdeckt! Sucht euch einen Teamnamen aus der Natur und ruft ihn zusammen in den Wald."
+    },
+    {
+      "id": "zapfen",
+      "code": "ZAPFEN-9M2",
+      "name": "Das Zapfenversteck",
+      "hint": "Augen auf! Der Waldboden steckt voller kleiner Schätze.",
+      "position": [
+        28.4214,
+        -16.3798
+      ],
+      "icon": "sprout",
+      "title": "Ihr habt den richtigen Riecher!",
+      "message": "Großartig! Findet drei unterschiedliche Dinge auf dem Waldboden. Anschauen, staunen und wieder liegen lassen."
+    },
+    {
+      "id": "wald",
+      "code": "WALD-4R8",
+      "name": "Der flüsternde Wald",
+      "hint": "Hier lohnt es sich, einmal ganz still zu sein.",
+      "position": [
+        28.4231,
+        -16.3805
+      ],
+      "icon": "bird",
+      "title": "Echte Waldentdecker!",
+      "message": "Schließt für zehn Sekunden die Augen. Wie viele verschiedene Geräusche könnt ihr hören? Eure nächste Spur wartet schon!"
+    },
+    {
+      "id": "berg",
+      "code": "BERG-2T6",
+      "name": "Der Bergblick",
+      "hint": "Ein kleiner Anstieg, ein großer Entdeckermoment.",
+      "position": [
+        28.424,
+        -16.3779
+      ],
+      "icon": "mountain",
+      "title": "Hoch hinaus!",
+      "message": "Ihr seid ein richtig gutes Team! Macht euer schönstes Gipfelbild und zeigt eure Entdeckerpose."
+    },
+    {
+      "id": "schatz",
+      "code": "SCHATZ-8P5",
+      "name": "Die Schatzlichtung",
+      "hint": "Euer letztes Geheimnis liegt zwischen den Bäumen.",
+      "position": [
+        28.4219,
+        -16.3759
+      ],
+      "icon": "gem",
+      "title": "Juhu, der Schatz ist gefunden!",
+      "message": "Ihr habt es geschafft! Gemeinsam habt ihr das Geheimnis der Pinien gelüftet. Holt euch eure Geburtstagsüberraschung bei der Spielleitung!"
+    }
+  ],
+  "stationVisibility": "all",
+  "timing": false,
+  "progression": "scan",
+  "mapSelection": {
+    "mode": "auto"
+  }
+}
